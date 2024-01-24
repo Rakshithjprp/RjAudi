@@ -27,7 +27,7 @@ pipeline{
 
         stage("Ram-Usage"){
             steps{
-                sh 'free -g'
+                sh 'free -gh'
             }
         }
     }
