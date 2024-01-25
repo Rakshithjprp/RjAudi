@@ -1,5 +1,7 @@
 pipeline{
-    agent any
+    agent {
+	label 'Node-Two'
+         }
     stages{
         stage("Hostname") {
             steps{
